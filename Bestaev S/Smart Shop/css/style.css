@@ -4,10 +4,10 @@ body {
     padding: 0;
     user-select: none;
     /*background-color: #05161a; */
-    background-image: url('https://img.freepik.com/free-vector/tropical-leaves-background-for-zoom_23-2148580778.jpg?w=1380&t=st=1703007661~exp=1703008261~hmac=c67c29cccef7a02dc4eb7d39814c988d21bf312248136723a432ff7f33a3bf65');
+    background-image: url("fon.jpg");
     color: #ffffff;
+    background-size: no-repeat;
     background-position: center;
-    background-size: cover;
 }
 
 .profile {
