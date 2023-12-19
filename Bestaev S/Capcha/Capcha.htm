@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Простая Капча</title>
+</head>
+<body>
+    <div class="form-container">
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Логин:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+        </form>
+    </div>
+    <p class="captcha-text">Соберите капчу</p>
+    <div class="captcha-container">
+        <div class="image-container">
+            <img id="rotatable-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGspYlmKpY-V6FL24uUeZ2xuyUTr63byBDXg&usqp=CAU" alt="Вращаемое изображение">
+        </div>
+        <div class="image-container">
+            <img id="static-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGspYlmKpY-V6FL24uUeZ2xuyUTr63byBDXg&usqp=CAU" alt="Фиксированное изображение">
+        </div>
+    </div><br>
+    <div class="form-group">
+        <button type="button" id="compare-button">Сравнить</button>
+        <button type="button" id="refresh-captcha">Обновить капчу</button>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
